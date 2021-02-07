@@ -3,6 +3,10 @@ import React, { useState, useEffect } from "react";
 import Home from "./views/home";
 import { Transition } from "react-transition-group";
 import MidSection from "./views/MidSection";
+import BestSellers from "./views/BestSelling";
+import BrandSection from "./views/BrandSection";
+import FooterSection from "./views/Footer";
+import Button from "./atoms/button/button";
 
 const duration = 125;
 
@@ -10,7 +14,7 @@ const defaultStyle = {
   transition: `opacity ${duration}ms ease-in-out 0s`,
 };
 const transitionStyles = {
-  entering: { opacity: 1 },
+  entering: { opacity: 0.5 },
   entered: { opacity: 1 },
   exiting: { opacity: 0 },
 };
@@ -33,7 +37,7 @@ function App({ in: inProp }) {
   }, [isViewing]);
 
   return (
-    <div className="App">
+    <div className="App container">
       <Transition
         in={inProp}
         timeout={{
@@ -54,6 +58,10 @@ function App({ in: inProp }) {
         )}
       </Transition>
       <MidSection />
+      <BestSellers/>
+      <Button squared title="signup"> </Button>
+      {/* <BrandSection/> */}
+      {/* <FooterSection/> */}
     </div>
   );
 }
