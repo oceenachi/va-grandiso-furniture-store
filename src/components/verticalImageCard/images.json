@@ -1,0 +1,19 @@
+[
+    {
+        "imageName": "green_sofa.jpg",
+        "title": "Furniture"
+    },
+    {
+        "imageName":"wall_lamp.jpg",
+        "title": "Lighting"
+    },
+    {
+        "imageName": "floor_tiles.jpg",
+        "title": "Decoration"
+    },
+    {
+        "imageName": "flower-on-table.jpg",
+        "title": "Accessories"
+    }
+    
+]

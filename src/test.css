@@ -1,0 +1,26 @@
+.crush {
+  background: red;
+  color: blue;
+  width: 100%;
+}
+
+.crush__div-section {
+  font-weight: 500;
+}
+
+.crush__div-section:hover {
+  color: purple;
+}
+
+.crush__div-section--text_red {
+  color: red;
+}
+
+.crush__div-section--text_red__italics {
+  text-transform: lowercase;
+}
+
+.crush__div-section--text_blue {
+  color: blue;
+}
+/*# sourceMappingURL=test.css.map */

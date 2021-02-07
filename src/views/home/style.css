@@ -1,0 +1,24 @@
+.image_slider {
+  background-color: green;
+}
+
+.image_slider-enter {
+  opacity: 0.5;
+}
+
+.image_slider-enter-active {
+  opacity: 1;
+  -webkit-transition: opacity 200ms;
+  transition: opacity 200ms;
+}
+
+.image_slider-exit {
+  opacity: 0.5;
+}
+
+.image_slider-exit-active {
+  opacity: 0;
+  -webkit-transition: opacity 200ms;
+  transition: opacity 200ms;
+}
+/*# sourceMappingURL=style.css.map */
