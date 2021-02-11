@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Typography from "../../atoms/typography";
 import { Link } from "react-router-dom";
 
-const MidBar = ({small, underline, normal, bold}) => {
+const MidBar = () => {
   return (
     <StyledDiv>
       <Typography normal >
@@ -18,12 +18,12 @@ const MidBar = ({small, underline, normal, bold}) => {
 };
 
 const StyledDiv = styled.div`
-padding: 45px 0px;
+padding-top: 60px;
 text-align: center;
 color: #003151; 
 display: block;
 margin: 0 auto;
-max-width: 30%;
+max-width: 24%;
 word-break: break-all;
 line-height: 1.5em;
 

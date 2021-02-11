@@ -1,0 +1,30 @@
+.crush {
+  background: red;
+  color: blue;
+  width: 100%;
+
+  &__div-section {
+    font-weight: 500;
+
+    &:hover {
+      color: purple;
+    }
+
+    &--text_red {
+      color: red;
+      &__italics {
+        text-transform: lowercase;
+      }
+    }
+    &--text_blue {
+      color: blue;
+    }
+  }
+}
+
+// BEM~
+
+// crush __div-section
+
+// className="crush__div-section"
+// className="crush__div-section--text_blue"
